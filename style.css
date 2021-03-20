@@ -1,0 +1,376 @@
+
+
+.about,.skills,
+.education,.languages,
+.contact,.experience{
+    padding: 40px;
+    min-height: 330px;
+    background-color: #24292d;
+}
+
+.education, .language,
+.contact, .experience{
+    margin-top: 30px;
+}
+
+
+
+header{
+    text-align: center;
+    
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+
+header img{
+    display: inline-block !important;
+    border: 3px solid #2f363e;
+    padding: 5px;
+}
+
+
+header h2{
+    padding-top: 40px;
+}
+
+
+.about{
+    background: white;
+}
+
+
+.skills{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+
+
+.skills .progress{
+    border-radius: 0px;
+    height: 4px;
+}
+
+
+.skills .progress .progress-bar-primary{
+    background: #204090;
+}
+
+
+.skills strong{
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+.education{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+
+
+
+.education .education-content{
+    padding-bottom: 14px;
+}
+
+
+.education h5{
+    display: inline-block;
+}
+
+.education span{
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+
+.languages{
+    background: #2f363e;
+    margin-top: 27px;
+}
+
+
+.languages ul{
+    padding: 10px;
+}
+
+
+.languages ul li{
+    padding-bottom: 6px;
+}
+
+
+.contact{
+    background: #2f363e;
+    
+}
+
+
+.experience{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+
+
+.experience-content{
+    padding-bottom: 14px;
+}
+
+
+.experience h5{
+    display: inline-block;
+}
+
+
+
+
+.experience span{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+html, body {
+margin:0;border:0;padding:0;
+font-size:16px;
+font-family: 'Poppins', sans-serif;
+position: relative;
+vertical-align: baseline;
+background-color: #2f363e !important;
+}
+
+
+h1 {font-size:40px;}
+h2 {font-size:36px;}
+h3 {font-size:30px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+h2 {
+padding-bottom: 14px;
+}
+
+
+
+
+
+
+
+.white {
+color: #fff;
+}
+
+.about,.skills,
+.education,.languages,
+.contact, .experience {
+padding: 40px;
+min-height: 330px;
+}
+
+.education, .languages,
+.contact, .experience {
+margin-top: 30px;
+}
+
+header {
+text-align: center;
+min-height: 100vh;
+overflow: hidden;
+position: relative;
+padding-top: 160px;
+padding-bottom: 140px;
+background-color: #24292d;
+}
+header img {
+display: inline-block !important;
+border: 3px solid white;
+padding: 5px;
+}
+header h2 {
+padding-top: 40px;
+}
+.for, img{
+transition: transform .2s
+}
+.for ,img:hover{
+transform: scale(1.03);
+
+}
+
+     
+     
+     
+     
+     
+/* about section */
+.about {
+background: #fff;
+box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+.bottom{
+background-color: #24292d;
+}    
+     
+     
+     
+
+/* skills section */
+.skills {
+background: #2f363e;
+color: #f5f5f5;
+}
+.skills .progress {
+border-radius: 0px;
+height: 4px;
+}
+.skills .progress .progress-bar-primary {
+background: #204090;
+}
+.skills strong {
+display: inline-block;
+font-weight: normal;
+padding-bottom: 6px;
+}
+     
+     
+     
+
+/* education section */
+.education {
+background: #2f363e;
+color: #f5f5f5;
+}
+.education .education-content {
+padding-bottom: 14px;
+}
+.education h5 {
+display: inline-block;
+}
+.education span {
+padding-right: 10px;
+padding-left: 20px;
+}
+
+     
+     
+/* languages section */
+.languages {
+background: #fff; 
+}
+.languages ul {
+padding: 10px;
+}
+.languages ul li {
+padding-bottom: 6px;
+}
+
+     
+     
+     
+/* contact section */
+.contact {
+background: #fff;  
+}
+.contact .fa {
+padding-right: 6px;
+}
+
+     
+     
+     
+     
+/* experience section */
+.experience {
+background: #2f363e;
+color: #f5f5f5;
+}
+.experience-content {
+padding-bottom: 14px;
+}
+.experience h5 {
+display: inline-block;
+}
+.experience span {
+padding-right: 10px;
+padding-left: 20px;
+}
+
+     
+     
+     
+     
+     
+     
+/* footer section */
+footer {
+color: #f9f9f9;
+text-align: center;
+padding-top: 140px;
+padding-bottom: 100px;
+background-color: #24292d;
+}
+     
+     
+     
+
+/* social icon section */
+.social-icons {
+padding: 0;
+margin: 0;
+}
+.social-icons li {
+display: inline-block;
+list-style: none;
+}
+.social-icons li a {
+background: #2f363e;
+border-radius: 50%;
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+width: 40px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+transition: all 0.4s ease-in;
+position: relative;
+bottom: 10px;
+top: 10px;
+}
+.social-icons li a:hover {
+background: #202020;
+color: #fff;
+}
+
+@media ( max-width: 980px ) {
+.skills {
+margin-top: 30px;
+}
+}
+
+@media ( max-width: 360px ) {
+header h1 {
+font-size: 30px;
+}
+.about h2 {
+font-size: 24px;
+}
+.education h4,
+.experience h4 {
+font-size: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
