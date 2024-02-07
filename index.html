@@ -210,7 +210,9 @@
 	</div>
 </footer>
 <script>
-	AOS.init();
+	AOS.init({
+		disable: "mobile",
+	});
 	let currentYear = new Date().getFullYear(); 
 
     let yearElement = document.getElementById("currentYear");

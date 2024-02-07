@@ -8,7 +8,9 @@
   min-height: 330px;
   background-color: #24292d;
 }
-
+body {
+  overflow-x: hidden;
+}
 .education,
 .language,
 .contact,
